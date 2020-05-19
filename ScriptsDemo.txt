@@ -1,0 +1,38 @@
+ ::ha::Harsh Anand
+ return
+ //like auto-correct
+ 
+ ^q::
+ Send, I am Harsh Anand
+ return
+ //CTRL+q will send the text
+ 
+ ^q::
+ MsgBox, Hello!
+ return
+ //CTRL+q will pop a window saying text
+ 
+ ^q::
+ Send, I am Harsh Anand
+ MsgBox, Hello from Harsh!
+ //Executing more than 1 commands
+ 
+ ^q::
+ Run, notepad.exe
+ return
+ //Run notepad
+ 
+ ^q::
+ Run, "C:\Users\harsh\Desktop\JAVA"
+ return
+ //Opens the folder, URLs/Links
+ 
+ #ifWinActive Untitled - Notepad
+ ^q::
+ MsgBox, Yes Notepad is open and active!
+ return
+ 
+ #ifWinExist Untitled - Notepad
+ ^q::
+ MsgBox, Yes Notepad is open!
+ return
