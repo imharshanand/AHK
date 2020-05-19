@@ -1,3 +1,9 @@
+; Doc:
+; 	!: Alt
+;	^: Ctrl
+;	#: Windows key
+;	+: Shift
+ 
  ::ha::Harsh Anand
  return
  //like auto-correct
