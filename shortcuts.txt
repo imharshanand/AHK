@@ -1,0 +1,73 @@
+------------------------------Windows------------------------------
+WIN + H             Dictate Text
+WIN + .             EMOJI
+WIN + V             Clipboard
+SHIFT + F10         Right Click Selected Item
+WIN + R             RUN
+WIN + E             Explorer
+WIn + D             Desktop
+ALT + TAB
+CTRL + ALT + TAB
+WIN + TAB
+ALT + `             Switch between same application window
+CTRL + F6           Cycle application(same)
+CTRL + WIN + < or > Switch between virtual desktop
+R Click Taskbar + D/U/E Cascade/Decascade/Stack
+CTRL + W            Close current file and not application
+CTRL + N            Create new application window
+CTRL + SHIFT + N    New Folder
+ALT + ARROW         Go back/fwd
+ALT + P             Show Preview
+WIN + A             Windows action center
+ALT + Space         App System Menu
+Space               Select first file on the opened window
+WIN + DOWN/UP Arrow Minimize/MAximize
+CTRL + T/N          New Tab / Tab Window
+CTRL + E            Search Tab
+CTRL + L or ALT + D Address/URL Bar
+CTRL + SHIFT        Next Chrome Tab
+CTRL + SHIFT + TAB  Prev Chrome Tab
+ALT + F             CHROME MENU
+CTRL + 9            Switch to last tab
+CTRL + 1,2,3...     Switch to that tab
+CTRL + DEL          Delete word right
+CTRL + BACKSPACE    Delete word left
+FILE Tool  Explorer ALT + F
+CTRL + SHIFT + T    Open closed tab
+
+------------------------------WINDOWS RUN------------------------------
+WIN + R
+services.msc
+mstsc
+msinfo32
+compmgmt.msc
+control
+resmon
+\                       C:/
+..                      Opens USERS
+calc
+cmd (CTRL + SHIFT + ENETR]  Run as administrator
+powershell
+gpedit.msc
+perfmon.msc
+regedit
+msconfig
+firewall.cpl
+
+------------------------------GIT------------------------------
+git init
+git clone [URL]
+git add [File Name]
+git add .
+git commit -m "message"
+git diff
+git diff -staged
+git difftool [branch 1] [branch 2]
+git status
+git HEAD
+git rm [file name]
+git log
+git branch
+git branch [new branch name]
+git difftool HEAD~1 HEAD~2
+git checkout BRANCH2
